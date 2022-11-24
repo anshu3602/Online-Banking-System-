@@ -1,0 +1,19 @@
+</style>
+<div class="container">
+    <div >
+        <h1>Query Box</h1>
+        <p>Enter any SQL query OTHER THAN INSERT</p>
+        <form action="queryBox.php" method="post" class='box'>
+            <textarea id="query" name="query" rows="8" cols="50">
+            </textarea>
+            <br/>
+            <br/>
+            <button class="submitBtn">Submit</button> 
+            <br/>
+        </form>
+    </div>
+  
+    <div style="float:right; width:50%;margin-top:150px">
+		<img style="width:100%" src="images/emp.jpg" />
+	</div> -->
+</div>

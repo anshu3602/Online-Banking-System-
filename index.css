@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;    
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.menu{
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.img{
+    width: 260;
+    text-align: center;
+    padding: 27px 10px;
+    font-size: 30px;
+    position: absolute;
+    color: #29648A;
+    font-family: Trebuchet MS;
+}
+
+nav{
+    position: relative;
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    color: #252847;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 33px 15px;
+    text-decoration: none;
+    font-family: Trebuchet MS;
+}
+
+nav ul li a:hover{
+    background: #464866;
+    color: aliceblue;
+}
+
+nav ul li a:active{
+    background: #464866; 
+    color: aliceblue;
+}
+
+nav ul li ul{
+    display: block;
+    background: rgba(255,255,255,1);
+    min-width: 50px;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: translateY(40px)
+}
+
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+nav ul li ul li a{
+    padding: 10px;
+}

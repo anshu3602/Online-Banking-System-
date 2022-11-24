@@ -1,0 +1,12 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+
+.drop-content{
+    font-size: 13px;
+    border: 1.5px solid black;
+    padding: 3px;
+}
+
